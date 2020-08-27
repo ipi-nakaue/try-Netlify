@@ -10,6 +10,9 @@ export default {
     STORAGE_BUCKET,
     MESSAGING_SENDER_ID
   },
+  router: {
+    middleware: 'authenticated'
+  },
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
