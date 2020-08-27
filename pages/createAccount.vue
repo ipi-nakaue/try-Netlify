@@ -84,8 +84,8 @@ export default {
             .catch((error) => {
             alert(error)
         })
-    }
-    mapActions('user', ['createUser'])
+    },
+    ...mapActions('user', ['createUser'])
   }
 }
 </script>

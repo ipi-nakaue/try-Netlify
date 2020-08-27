@@ -63,8 +63,8 @@ export default {
             .catch((error) => {
             alert(error)
             })
-    }
-    mapActions('user', ['login'])
+    },
+    ...mapActions('user', ['login'])
   }
 }
 </script>
