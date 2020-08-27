@@ -6,7 +6,7 @@
         try-Netlify
       </h1>
       <div class="links">
-        <a
+        <!-- <a
           href="https://nuxtjs.org/"
           target="_blank"
           rel="noopener noreferrer"
@@ -21,7 +21,9 @@
           class="button--grey"
         >
           GitHub
-        </a>
+        </a> -->
+        <router-link to="/home-ny" class="button--green">ホームへ</router-link>
+        <!-- <router-link to="/vfor" class="button--green">V-forへ</router-link> -->
       </div>
     </div>
   </div>
